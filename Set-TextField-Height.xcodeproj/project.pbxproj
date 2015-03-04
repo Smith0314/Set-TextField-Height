@@ -13,6 +13,13 @@
 		04223E611AA6E627006B13C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04223E601AA6E627006B13C0 /* Images.xcassets */; };
 		04223E641AA6E627006B13C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04223E621AA6E627006B13C0 /* LaunchScreen.xib */; };
 		04223E701AA6E627006B13C0 /* Set_TextField_HeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223E6F1AA6E627006B13C0 /* Set_TextField_HeightTests.swift */; };
+		04223E7F1AA6E64B006B13C0 /* custom_font.png in Resources */ = {isa = PBXBuildFile; fileRef = 04223E7A1AA6E64B006B13C0 /* custom_font.png */; };
+		04223E801AA6E64B006B13C0 /* mail_check_o.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 04223E7B1AA6E64B006B13C0 /* mail_check_o.PNG */; };
+		04223E811AA6E64B006B13C0 /* mail_check_x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 04223E7C1AA6E64B006B13C0 /* mail_check_x.PNG */; };
+		04223E821AA6E64B006B13C0 /* main.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04223E7D1AA6E64B006B13C0 /* main.gif */; };
+		04223E831AA6E64B006B13C0 /* sketch.png in Resources */ = {isa = PBXBuildFile; fileRef = 04223E7E1AA6E64B006B13C0 /* sketch.png */; };
+		04223E851AA6E6A5006B13C0 /* smith-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04223E841AA6E6A5006B13C0 /* smith-font.ttf */; };
+		04223E871AA6E6DD006B13C0 /* UIColor+ApplicationSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04223E861AA6E6DD006B13C0 /* UIColor+ApplicationSpecific.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		04223E691AA6E627006B13C0 /* Set-TextField-HeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Set-TextField-HeightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04223E6E1AA6E627006B13C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04223E6F1AA6E627006B13C0 /* Set_TextField_HeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set_TextField_HeightTests.swift; sourceTree = "<group>"; };
+		04223E7A1AA6E64B006B13C0 /* custom_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_font.png; sourceTree = "<group>"; };
+		04223E7B1AA6E64B006B13C0 /* mail_check_o.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_check_o.PNG; sourceTree = "<group>"; };
+		04223E7C1AA6E64B006B13C0 /* mail_check_x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_check_x.PNG; sourceTree = "<group>"; };
+		04223E7D1AA6E64B006B13C0 /* main.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = main.gif; sourceTree = "<group>"; };
+		04223E7E1AA6E64B006B13C0 /* sketch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sketch.png; sourceTree = "<group>"; };
+		04223E841AA6E6A5006B13C0 /* smith-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "smith-font.ttf"; sourceTree = "<group>"; };
+		04223E861AA6E6DD006B13C0 /* UIColor+ApplicationSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ApplicationSpecific.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 				04223E561AA6E627006B13C0 /* Set-TextField-Height */,
 				04223E6C1AA6E627006B13C0 /* Set-TextField-HeightTests */,
 				04223E551AA6E627006B13C0 /* Products */,
+				04223E791AA6E64B006B13C0 /* screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,7 @@
 			children = (
 				04223E591AA6E627006B13C0 /* AppDelegate.swift */,
 				04223E5B1AA6E627006B13C0 /* ViewController.swift */,
+				04223E861AA6E6DD006B13C0 /* UIColor+ApplicationSpecific.swift */,
 				04223E5D1AA6E627006B13C0 /* Main.storyboard */,
 				04223E601AA6E627006B13C0 /* Images.xcassets */,
 				04223E621AA6E627006B13C0 /* LaunchScreen.xib */,
@@ -90,6 +106,7 @@
 		04223E571AA6E627006B13C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04223E841AA6E6A5006B13C0 /* smith-font.ttf */,
 				04223E581AA6E627006B13C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +127,18 @@
 				04223E6E1AA6E627006B13C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04223E791AA6E64B006B13C0 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04223E7A1AA6E64B006B13C0 /* custom_font.png */,
+				04223E7B1AA6E64B006B13C0 /* mail_check_o.PNG */,
+				04223E7C1AA6E64B006B13C0 /* mail_check_x.PNG */,
+				04223E7D1AA6E64B006B13C0 /* main.gif */,
+				04223E7E1AA6E64B006B13C0 /* sketch.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +223,13 @@
 			files = (
 				04223E5F1AA6E627006B13C0 /* Main.storyboard in Resources */,
 				04223E641AA6E627006B13C0 /* LaunchScreen.xib in Resources */,
+				04223E851AA6E6A5006B13C0 /* smith-font.ttf in Resources */,
+				04223E801AA6E64B006B13C0 /* mail_check_o.PNG in Resources */,
 				04223E611AA6E627006B13C0 /* Images.xcassets in Resources */,
+				04223E811AA6E64B006B13C0 /* mail_check_x.PNG in Resources */,
+				04223E7F1AA6E64B006B13C0 /* custom_font.png in Resources */,
+				04223E821AA6E64B006B13C0 /* main.gif in Resources */,
+				04223E831AA6E64B006B13C0 /* sketch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +249,7 @@
 			files = (
 				04223E5C1AA6E627006B13C0 /* ViewController.swift in Sources */,
 				04223E5A1AA6E627006B13C0 /* AppDelegate.swift in Sources */,
+				04223E871AA6E6DD006B13C0 /* UIColor+ApplicationSpecific.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
