@@ -22,14 +22,32 @@ iconfont 置入 iOS 不同於 pdf 的置入，pdf 置入的圖在開發階段是
     currencyLabel.textColor = newColor
     currencyLabel.textAlignment = .Left
 
+.
 
+
+* 自動對應多尺寸螢幕
+--------------------------
+元件的寬高並未設固定的數值，而是對應目前的 view 的 bounds size 的比例，即依螢幕的百分比來決定尺寸
+
+        // Position
+        var elementMargin :CGFloat = self.view.bounds.width / 5
+        var elementWidth = Int(self.view.bounds.width - elementMargin)
+        var elementWidthHalf = elementWidth/2
+        var viewWidthHalf = self.view.bounds.width/2
+        var viewHeight = self.view.bounds.height
+        var viewHeightHalf = viewHeight/2
+        var elementHeight = Int(viewHeight / 10)
+        var elementSpace = 0
+        var elementVMargin = elementHeight + elementSpace
+        var elementX = Int(viewWidthHalf) - elementWidthHalf
+        var elementY = 25
 
 .
 
 
 * 欄位高度及 icon 尺寸變化
 --------------------------
-分為 Small、Medium 及 Large 尺寸，Layout Textfield 的寬高並未設固定的數值，而是對應目前的 view 的 bounds size 的比例，即依螢幕的百分比來決定尺寸
+以按鈕控制 Small、Medium 及 Large 三種尺寸變化
 
 
 ![image](https://github.com/Smith0314/Set-TextField-Height/blob/master/screenshots/main.gif?raw=true)
