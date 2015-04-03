@@ -25,7 +25,7 @@ iconfont 置入 iOS 不同於 pdf 的置入，pdf 置入的圖在開發階段是
 .
 
 
-* 自動對應多尺寸螢幕
+* Auto Layout
 --------------------------
 元件的寬高並未設固定的數值，而是對應目前的 view 的 bounds size 的比例，即依螢幕的百分比來決定尺寸
 
@@ -45,7 +45,7 @@ iconfont 置入 iOS 不同於 pdf 的置入，pdf 置入的圖在開發階段是
 .
 
 
-* 欄位高度及 icon 尺寸變化
+* Controll Textfield Height And Icon Size
 --------------------------
 以按鈕控制 Small、Medium 及 Large 三種尺寸變化
 
@@ -87,7 +87,7 @@ iconfont 置入 iOS 不同於 pdf 的置入，pdf 置入的圖在開發階段是
 .
 
 
-* 輸入格式判斷
+* Verify Input Date Format
 ---------------
 E-mail 郵件格式、密碼長度及手機號碼格式的判斷
 
